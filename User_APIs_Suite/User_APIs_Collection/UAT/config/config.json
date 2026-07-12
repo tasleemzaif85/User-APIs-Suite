@@ -27,7 +27,20 @@
       "value": "5"
     }
   ],
-  "test_plans": [],
+  "test_plans": [
+    {
+      "id": 2,
+      "name": "User APIs Load Test",
+      "engine": "jmeter",
+      "test_type": "load",
+      "vusers": 1,
+      "rampup": 1,
+      "iter_mode": "loops",
+      "loops": 5,
+      "duration": 300,
+      "status": "generated"
+    }
+  ],
   "config": {
     "urls": [
       {
