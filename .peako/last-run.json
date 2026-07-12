@@ -1,5 +1,5 @@
 {
-  "triggered_at": "2026-07-12T17:00:11.526Z",
+  "triggered_at": "2026-07-12T17:02:51.401Z",
   "script": "User_API_Load_Test.jmx",
   "users": 1,
   "rampup": 1,
