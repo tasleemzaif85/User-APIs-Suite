@@ -1,0 +1,40 @@
+{
+  "project": {
+    "id": 1,
+    "name": "User APIs Suite",
+    "description": "User and Product APIs",
+    "uuid": "457092"
+  },
+  "collection": {
+    "id": 2,
+    "name": "User APIs Collection",
+    "description": "User APIs Collection",
+    "source_type": "postman",
+    "environments": [
+      "QA",
+      "UAT"
+    ],
+    "endpoint_count": 108
+  },
+  "environment": "UAT",
+  "rules": [
+    {
+      "id": 2,
+      "metric": "Error Rate",
+      "operator": ">",
+      "unit": "%",
+      "severity": "error",
+      "value": "5"
+    }
+  ],
+  "test_plans": [],
+  "config": {
+    "urls": [
+      {
+        "protocol": "https",
+        "url": "dummyjson.com",
+        "port": "443"
+      }
+    ]
+  }
+}
