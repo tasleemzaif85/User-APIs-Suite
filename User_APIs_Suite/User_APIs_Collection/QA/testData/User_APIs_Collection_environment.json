@@ -1,0 +1,295 @@
+{
+  "id": "d6e2a9b0-dummy-json-perf-suite-env-0001",
+  "name": "DummyJSON - perf-studio",
+  "values": [
+    {
+      "key": "protocol",
+      "value": "https",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "host",
+      "value": "dummyjson.com",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "port",
+      "value": "443",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "baseUrl",
+      "value": "{{protocol}}://{{host}}",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "timeout",
+      "value": "30000",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "username",
+      "value": "emilys",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "password",
+      "value": "emilyspass",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "bearerToken",
+      "value": "",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "refreshToken",
+      "value": "",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "clientId",
+      "value": "REPLACE_WITH_CLIENT_ID",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "clientSecret",
+      "value": "REPLACE_WITH_CLIENT_SECRET",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "apiKey",
+      "value": "REPLACE_WITH_API_KEY",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "tenantId",
+      "value": "REPLACE_WITH_TENANT_ID",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "organizationId",
+      "value": "REPLACE_WITH_ORGANIZATION_ID",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "userId",
+      "value": "1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "productId",
+      "value": "1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "productCategory",
+      "value": "beauty",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "newProductTitle",
+      "value": "BMW Pencil",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "cartId",
+      "value": "1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "recipeId",
+      "value": "1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "recipeTag",
+      "value": "Pizza",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "mealType",
+      "value": "Dinner",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "postId",
+      "value": "1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "postTag",
+      "value": "history",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "commentId",
+      "value": "1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "todoId",
+      "value": "1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "quoteId",
+      "value": "1",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "newUserFirstName",
+      "value": "Muhammad",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "newUserLastName",
+      "value": "Ovi",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "newUserEmail",
+      "value": "muhammad.ovi@example.com",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "newPostTitle",
+      "value": "I am in love with someone.",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "newCommentBody",
+      "value": "This makes all sense to me!",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "newTodoText",
+      "value": "Use DummyJSON in the project",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "filterKey",
+      "value": "hair.color",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "filterValue",
+      "value": "Brown",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "searchQuery",
+      "value": "phone",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "pageLimit",
+      "value": "10",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "pageSkip",
+      "value": "0",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "simulatedDelayMs",
+      "value": "2000",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "totpSecret",
+      "value": "JBSWY3DPEHPK3PXP",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "mockMessage",
+      "value": "Something_went_wrong",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "imageSize",
+      "value": "150",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "imageWidth",
+      "value": "400",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "imageHeight",
+      "value": "200",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "imageBgColor",
+      "value": "008080",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "imageTextColor",
+      "value": "ffffff",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "imageText",
+      "value": "Hello+Peter",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "iconSeed",
+      "value": "abc123",
+      "type": "default",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}

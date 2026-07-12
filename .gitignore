@@ -1,6 +1,0 @@
-# PerfStudio — ignore large binary files and temp artifacts
-*_workspace/
-*.log
-*.tmp
-node_modules/
-.env
