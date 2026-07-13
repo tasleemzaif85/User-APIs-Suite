@@ -38,7 +38,7 @@
       "iter_mode": "loops",
       "loops": 5,
       "duration": 300,
-      "status": "pending"
+      "status": "generated"
     }
   ],
   "config": {
