@@ -1,0 +1,65 @@
+{
+  "project": {
+    "id": 1,
+    "name": "User APIs Suite",
+    "description": "User and Product APIs",
+    "uuid": "457092"
+  },
+  "collection": {
+    "id": 11,
+    "name": "User APIs Test Collection",
+    "description": "",
+    "source_type": "postman",
+    "environments": [
+      "QA"
+    ],
+    "endpoint_count": 108
+  },
+  "environment": "QA",
+  "rules": [
+    {
+      "id": 12,
+      "metric": "Response Time",
+      "operator": ">",
+      "unit": "ms",
+      "severity": "error",
+      "value": "500"
+    },
+    {
+      "id": 13,
+      "metric": "Error Rate",
+      "operator": ">",
+      "unit": "%",
+      "severity": "error",
+      "value": "5"
+    }
+  ],
+  "test_plans": [
+    {
+      "id": 9,
+      "name": "User API Load Test",
+      "engine": "jmeter",
+      "test_type": "load",
+      "vusers": 5,
+      "rampup": 1,
+      "iter_mode": "duration",
+      "loops": 1,
+      "duration": 60,
+      "status": "pending"
+    }
+  ],
+  "config": {
+    "urls": [
+      {
+        "protocol": "https",
+        "url": "dummyjson.com",
+        "port": "443"
+      },
+      {
+        "protocol": "https",
+        "url": "autonix.qtsolvdev.com",
+        "port": ""
+      }
+    ]
+  }
+}
